@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文件下载中心</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        body {
+            background-color: #f7f8fa;
+            color: #222;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .desc {
+            color: #666;
+            font-size: 15px;
+        }
+        .download-box {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 18px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .file-item:last-child {
+            border-bottom: none;
+        }
+        .file-info h3 {
+            font-size: 17px;
+            font-weight: 500;
+        }
+        .file-info p {
+            font-size: 13px;
+            color: #888;
+            margin-top: 4px;
+        }
+        .download-btn {
+            padding: 9px 22px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.2s;
+            text-decoration: none;
+        }
+        .download-btn:hover {
+            background: #1d4ed8;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #999;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>文件下载中心</h1>
+            <p class="desc">干净简洁的文件下载平台，所有资源免费获取</p>
+        </header>
+
+        <div class="download-box">
+            <!-- 1.和平精英.sb3 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <h3>和平精英.sb3</h3>
+                    <p>文件类型：Scratch3项目(.sb3) | 大小：10.6MB</p>
+                </div>
+                <a class="download-btn" href="和平精英.sb3" download>下载文件</a>
+            </div>
+            <!-- 2.战争前线二战版.sb3 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <h3>战争前线二战版.sb3</h3>
+                    <p>文件类型：SB3文件 | 大小：2.89 MB</p>
+                </div>
+                <a class="download-btn" href="战争前线二战版.sb3" download>下载文件</a>
+            </div>
+            <!-- 3.植物大战僵尸2.sb3 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <h3>植物大战僵尸2.sb3</h3>
+                    <p>文件类型：SB3文件 | 大小：16.7 MB</p>
+                </div>
+                <a class="download-btn" href="植物大战僵尸2.sb3" download>下载文件</a>
+            </div>
+            <!-- 4.斗地主.sb3 -->
+            <div class="file-item">
+                <div class="file-info">
+                    <h3>斗地主.sb3</h3>
+                    <p>文件类型：SB3文件 | 大小：4.64 MB</p>
+                </div>
+                <a class="download-btn" href="斗地主.sb3" download>下载文件</a>
+            </div>
+        </div>
+
+        <footer>
+            © 2026 文件下载站 | 简洁无广告
+        </footer>
+    </div>
+</body>
+</html>
